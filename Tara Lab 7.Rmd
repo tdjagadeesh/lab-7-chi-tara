@@ -1,0 +1,12 @@
+---
+title: "Gun Control Chi-Square"
+author: "Tara Jagadeesh"
+date: "November 13, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This: I'm Tara and I'm updating this markdown file here. 
