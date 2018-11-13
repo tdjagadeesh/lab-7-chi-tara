@@ -20,9 +20,11 @@ gcdf <- read_csv("gc_df.csv")
 
 We are asking: Is there a significant difference in recommended gun control action between male and female respondents (should guns be easier, harder, or same difficulty to get)?
 
+Tara: data wrangling and counts
+
 ```{r}
-
-Tara where my money at? hello
-
+get_guns <- gcdf %>% 
+  filter(gender != "NA", make_get_guns != "NA") %>% 
+  count(gender, make_get_guns)
 ```
 
